@@ -1,0 +1,56 @@
+# ==============================================================================
+# BẢO MẬT & DỮ LIỆU NHẠY CẢM (TUYỆT ĐỐI KHÔNG PUSH LÊN GITHUB)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+credentials.json
+client_secret*.json
+
+# Cơ sở dữ liệu & Vector storage nội bộ
+*.db
+*.sqlite
+*.sqlite3
+semantic_cache.db
+lms_data.db
+metrics.db
+graphrag_data/
+*.bin
+
+# Python runtime & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & Metrics
+*.log
+logs/
+.system_generated/
